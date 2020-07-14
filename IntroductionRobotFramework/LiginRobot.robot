@@ -15,6 +15,7 @@ LoginTest
     Sleep  2s
     Click Element  link=Logout
     Log   Ceci est un test executer par %{username} dans %{os}
+    Log    Ceci un simple text
     Log    Fin de test   
     Close Browser
 *** Variables ***
